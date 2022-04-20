@@ -32,9 +32,9 @@ public class Radio {
     }
 
     public void printInConsole() {
-        System.out.println("FM Frequency is: " + getFmFrequency());
-        System.out.println("AM Frequency is: " + getAmFrequency());
-        System.out.println("Band is: " + getBand());
+        System.out.println("FM Frequency is: " + this.getFmFrequency());
+        System.out.println("AM Frequency is: " + this.getAmFrequency());
+        System.out.println("Band is: " + this.getBand());
         System.out.println();
     }
 }

@@ -44,9 +44,9 @@ public class Television {
     }
 
     public void printInConsole () {
-        System.out.println("Volume is: " + getVolume());
-        System.out.println("Current program is: " + getCurrentProgram());
-        System.out.println("The TV is turned on: " + getTurnedOn());
+        System.out.println("Volume is: " + this.getVolume());
+        System.out.println("Current program is: " + this.getCurrentProgram());
+        System.out.println("The TV is turned on: " + this.getTurnedOn());
         System.out.println();
     }
 }
